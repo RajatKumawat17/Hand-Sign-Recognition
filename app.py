@@ -653,23 +653,23 @@ def draw_info(image, fps, mode, number):
             image,
             "MODE:" + mode_string[mode - 1],
             (10, 90),
-            cv.FONT_HERSHEY_SIMPLEX,
+            cv.FONT_HERSHEY_TRIPLEX,
             0.6,
-            (255, 255, 255),
+            (255, 0, 0),
             1,
             cv.LINE_AA,
         )
-        if 0 <= number <= 9:
-            cv.putText(
-                image,
-                "NUM:" + str(number),
-                (10, 110),
-                cv.FONT_HERSHEY_SIMPLEX,
-                0.6,
-                (255, 255, 255),
-                1,
-                cv.LINE_AA,
-            )
+        # if 0 <= number <= 9:
+        #     cv.putText(
+        #         image,
+        #         "NUM:" + str(number),
+        #         (10, 110),
+        #         cv.FONT_HERSHEY_SIMPLEX,
+        #         0.6,
+        #         (255, 255, 255),
+        #         1,
+        #         cv.LINE_AA,
+        #     )
     return image
 
 
