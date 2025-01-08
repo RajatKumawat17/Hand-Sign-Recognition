@@ -41,3 +41,5 @@ This project utilizes OpenCV, MediaPipe, and TensorFlow to perform real-time han
 
   - Open your webcam and make hand signs in front of it.
   - The system will recognize and display the hand sign in real-time.
+
+Inspired by ![This Project by Kazuhito-san](https://github.com/Kazuhito00/hand-gesture-recognition-using-mediapipe)
